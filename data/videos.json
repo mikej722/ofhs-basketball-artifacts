@@ -1,5 +1,5 @@
 {
-  "_comment": "Site settings plus one entry per video. To add a video, copy a block in 'videos' and edit it. The 'slug' becomes the URL: /v/<slug>/. The 'artifacts' list holds IDs from data/artifacts.json -- the same ID can appear under multiple videos.",
+  "_comment": "Site settings plus one block per video. FORMAT for each video: { \"slug\": \"url-name\", \"title\": \"Video Title\", \"youtube_url\": \"https://...\", \"description\": \"One line.\", \"artifacts\": [\"an-id\", \"another-id\"] } -- the IDs come from artifacts.json. Separate blocks with commas; no comma after the last one.",
 
   "site": {
     "title": "Video Archive",
@@ -7,27 +7,5 @@
     "footer": "Assembled by MJ"
   },
 
-  "videos": [
-    {
-      "slug": "1957-flood",
-      "title": "The Flood of 1957",
-      "youtube_url": "https://www.youtube.com/watch?v=REPLACE_ME",
-      "description": "Newspaper coverage and photographs from the week the river crested.",
-      "artifacts": [
-        "tribune-1957-flood-frontpage",
-        "photo-mainst-underwater",
-        "levee-map-1954"
-      ]
-    },
-    {
-      "slug": "rebuilding-the-levee",
-      "title": "Rebuilding the Levee",
-      "youtube_url": "https://www.youtube.com/watch?v=REPLACE_ME_TOO",
-      "description": "How the city financed and built the new flood defenses.",
-      "artifacts": [
-        "levee-map-1954",
-        "gazette-1958-rebuild"
-      ]
-    }
-  ]
+  "videos": []
 }
