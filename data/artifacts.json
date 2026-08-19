@@ -1,3 +1,0 @@
-{
-  "_comment": "Your document library. One block per document. The key (e.g. tribune-1957-flood) is an ID you invent -- videos refer to documents by this ID. FORMAT: \"your-id\": { \"file\": \"exact-filename.pdf\", \"title\": \"What it shows\", \"source\": \"Paper name\", \"date\": \"March 12, 1957\" } -- only file and title are required. Separate blocks with commas; no comma after the last one."
-}
