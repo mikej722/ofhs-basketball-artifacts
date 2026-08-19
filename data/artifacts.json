@@ -1,0 +1,31 @@
+{
+  "_comment": "The artifact library. Each key is an artifact ID you choose (lowercase, hyphens, no spaces). Reference these IDs from data/videos.json. An artifact listed here can be used by as many videos as you like -- define it once, reference it everywhere.",
+
+  "tribune-1957-flood-frontpage": {
+    "file": "1957-tribune-flood-frontpage.pdf",
+    "title": "Flood crests at record height downtown",
+    "source": "Chicago Tribune",
+    "date": "March 12, 1957"
+  },
+
+  "photo-mainst-underwater": {
+    "file": "mainst-underwater.jpg",
+    "title": "Main Street looking east from the courthouse",
+    "source": "Family collection",
+    "date": "March 1957"
+  },
+
+  "levee-map-1954": {
+    "file": "levee-map-1954.png",
+    "title": "Army Corps levee survey map",
+    "source": "US Army Corps of Engineers",
+    "date": "1954"
+  },
+
+  "gazette-1958-rebuild": {
+    "file": "1958-gazette-rebuild.pdf",
+    "title": "City council approves rebuild bonds",
+    "source": "Evening Gazette",
+    "date": "January 8, 1958"
+  }
+}
